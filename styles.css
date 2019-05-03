@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  background-color: white;
+  text-align: center;
+  font-size: 12em;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 0px;
+}
+html, body, div {
+  padding: 0;
+  margin: 0;
+}
+.circle{
+  fill:steelblue;
+  opacity: 0.5;
+}
+
+.circle-focus{
+  fill:grey;
+  opacity: 0.75;
+}
+.y-axis{
+  color:black;
+}
+.y-axisb{
+  color:black;
+}
+.x-axis{
+  color:black;
+}
+text{
+  fill:black;
+}
+.x-axis-label{
+  color:black;
+  font-size:3em;
+}
+.y-axis-label{
+  color:black;
+  font-size:3em;
+}
+.line-path{
+  clip-path: url(#clip);
+  fill:none;
+  stroke-width: 1;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  mix-blend-mode: multiply;  
+}
+.trendline{
+  clip-path: url(#clip);
+  stroke: red;
+  stroke-dasharray: 5,5;
+  stroke-width: 2;
+}
+.text-label {
+  font-size: 25px;
+  font-family: sans-serif;
+  fill: grey;
+}
+#pp {
+  font-size: 0.13em;
+  font-family: sans-serif;
+  fill: black;
+}
+.legend-text{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.bars{
+  clip-path: url(#clip);
+  fill: #60bfff;
+  opacity: 0.5;
+  mix-blend-mode: multiply;  
+}
+
+.ddd {
+  color: #60efff
+}
