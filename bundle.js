@@ -287,7 +287,7 @@
       'Effective Rainfall',
       'Observation well 2 deep', 
       'Observation well 2 shallow', 
-      'Regreesion Line: month(x) with Effective Rainfall(y) '
+      'Regreesion Line: month(x) with Observation measurement(y) '
     ])
     .range(['#60bfff','orange', 'blue', 'red']);
 
