@@ -74,12 +74,13 @@ text{
   opacity: 0.5;
   mix-blend-mode: multiply;  
 }
+
+.ddd {
+  color: #60efff
+}
+
 .tips{
   font-size: 10px;
   font-family: sans-serif;
   fill: black;
-}
-
-.ddd {
-  color: #60efff
 }
